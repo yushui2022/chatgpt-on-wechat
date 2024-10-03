@@ -1,28 +1,19 @@
 {
   "channel_type": "wx",
-  "model": "",
-  "open_ai_api_key": "YOUR API KEY",
-  "claude_api_key": "YOUR API KEY",
+  "model": "glm-4",
+  "zhipu_ai_api_key": "把你一开始注册的智谱AI的API key，粘贴到这里",
+  "zhipu_ai_api_base": "https://open.bigmodel.cn/api/paas/v4",
   "text_to_image": "dall-e-2",
   "voice_to_text": "openai",
   "text_to_voice": "openai",
   "proxy": "",
   "hot_reload": false,
-  "single_chat_prefix": [
-    "bot",
-    "@bot"
-  ],
-  "single_chat_reply_prefix": "[bot] ",
-  "group_chat_prefix": [
-    "@bot"
-  ],
-  "group_name_white_list": [
-    "ChatGPT测试群",
-    "ChatGPT测试群2"
-  ],
-  "image_create_prefix": [
-    "画"
-  ],
+  "single_chat_prefix": [""],
+  "single_chat_reply_prefix": "",
+  "group_chat_prefix": ["@bot"], 
+  "group_chat_keyword": ["@机器人大军"], 
+  "group_name_white_list": ["ALL_GROUP"],
+  "image_create_prefix": [""],
   "speech_recognition": true,
   "group_speech_recognition": false,
   "voice_reply_voice": false,
